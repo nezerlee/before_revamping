@@ -1,0 +1,1082 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #414141 !important;
+    overflow: visible !important;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.75em;
+    font-family: 'Lato', sans-serif;
+    /*overflow: visible !important;*/
+}
+
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /*touch-action: manipulation !important;*/
+}
+
+img {
+    padding: 4px !important;
+    border: 1px solid #D6D6D6 !important;
+    text-align: center !important;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Parallax Scroll
+   ========================================================================== */
+body, html {
+    height: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+body {
+
+}
+
+.no-js {
+    padding-top: 106px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.loading {
+    background: url('../img/ico_loading.gif') no-repeat center center;
+}
+
+section {
+    min-width: 100% !important;
+    opacity: 0;
+}
+
+
+.loaded section,
+.no-js section {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+#preload {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bcg {
+    background-position: 50% 10% !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    max-width: 700px;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+}
+
+.less-margin {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    text-align: center !important;
+}
+
+.less-margin__without_img {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+}
+
+.less-margin img {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: red;
+}
+
+.scripture {
+    font-family: fantasy;
+    text-align: center;
+}
+
+.writingContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.writingContainer.alumni {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.writingContent {
+    max-width: 100%;
+    height: 100%;
+    left: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.writingContent.alumni {
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.writingContent__first_image {
+    width: 100%;
+}
+
+.writingContent.more-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.writingContent .middle-text {
+    color: #fff8de;
+}
+
+.middle-text {
+    text-align: center;
+}
+
+.mid-text {
+    text-align: center !important;
+}
+
+.writingContent h2 {
+    color: #fff8de;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.writingContainer h2 {
+    color: #f6f5f1;
+    background-color: #a51c30;
+    padding: 10px 5px;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 12px;
+    text-align: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.writingContent h4 {
+    color: #a51c30;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    font-size: 70% !important;
+    line-height: 38px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.h-custom-headline.accent {
+    overflow: hidden
+}
+
+.h-custom-headline.accent span {
+    padding-bottom: 2px;
+    display: inline-block;
+    position: relative;
+    font-size: 200%;
+}
+
+.h-custom-headline.accent span:before, .h-custom-headline.accent span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    width: 9999px;
+    display: block;
+    margin-top: -1px;
+    background-color: #ffffff;
+    color: #4b030d;
+}
+
+.h-custom-headline.accent span:before {
+    right: 100%;
+    margin-right: .5em;
+}
+
+.h-custom-headline.accent span:after {
+    left: 100%;
+    margin-left: .5em;
+}
+
+.lower__content {
+    font-size: 100% !important;
+}
+
+.courses__table {
+    /*width: 100%;*/
+    float: right !important;
+}
+
+.courses__table {
+    border-left: #4b030d;
+    border-right: #4b030d;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 5% !important;
+}
+
+.courses__table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /*border-bottom: solid tan;*/
+}
+
+.courses__table tr {
+    line-height: 200%;
+}
+
+.courses__table tr:nth-child(even) {
+    background-color: #919191;
+    color: #f2f2f2;
+    /*border-bottom: solid tan;*/
+}
+
+.courses__table__header {
+    background-color: aliceblue;
+    border-bottom: solid #a51c30;
+    font-size: 140%;
+}
+
+.writingContent__inside {
+
+}
+
+.writingContent__inside p {
+    text-align: left !important;
+}
+
+.writingContent__inside p.right {
+    text-align: right !important;
+}
+
+.writingContent__inside.rotation {
+    margin-bottom: 10%;
+}
+
+.writingContent__inside.rotation img {
+    margin: 10px 30px 30px 0 !important;
+}
+
+.writingContent__inside.rotation img.right {
+    margin: 0 30px 30px 30px !important;
+}
+
+.writingContent__inside__image {
+    height: 150px;
+    margin: 30px 30px 30px 0;
+    float: left;
+}
+
+.writingContent__inside__image.right {
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    float: right;
+}
+
+.more-margin__image {
+    width: 30%;
+    margin: 30px 30px 30px 0;
+    float: left;
+}
+
+.more-margin__image.right {
+    width: 30%;
+    margin: 30px 0 30px 30px;
+    float: right;
+}
+
+.writingContent__inside__text {
+    display: block;
+}
+
+.writingContent__inside__text strong {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.staff-title {
+    color: #414141 !important;
+    font-size: 1.5em;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important
+}
+
+
+.writingContent p {
+    /*color: #b2b2b2;*/
+    text-align: justify;
+}
+
+.writingContent.less-margin p {
+    color: #013953;
+    text-align: center !important;
+}
+
+.hsContent h2 {
+    color: #fff8de;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
+.hsContent p {
+    width: 400px;
+    color: #b2b2b2;
+}
+
+.hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {
+    background-image: url('../img/founder.jpg')
+}
+
+#slide-1 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 6 */
+#slide-6 .bcg {
+    background-image: url('../img/block-6.jpg')
+}
+
+#slide-6 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 7 */
+#slide-7 .bcg {
+    background-image: url('../img/founder.jpg')
+}
+
+#slide-7 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 8 */
+#slide-8 .bcg {
+    background-image: url('../img/founder.jpg')
+}
+
+#slide-8 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 9 */
+#slide-9 .bcg {
+    background-image: url('../img/founder.jpg')
+}
+
+#slide-9 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 10 */
+#slide-10 .bcg {
+    background-image: url('../img/contact-us.jpg')
+}
+
+#slide-10 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-11 .bcg {
+    background-image: url('../img/alumni_cover.jpg')
+}
+
+#slide-11 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-12 .bcg {
+    background-image: url('../img/tryback.jpg')
+}
+
+#slide-12 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-13 .bcg {
+    background-image: url('../img/pract.jpg')
+}
+
+#slide-13 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-14 .bcg {
+    background-image: url('../img/tryback.jpg')
+}
+
+#slide-15 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-15 .bcg {
+    background-image: url('../img/staffs.jpg')
+}
+
+#slide-15 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-16 .bcg {
+    background-image: url('../img/block-6.jpg')
+}
+
+#slide-16 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-17 .bcg {
+    background-image: url('../img/feeding.jpg')
+}
+
+#slide-17 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-18 .bcg {
+    background-image: url('../img/ConvenienceStore02.jpg')
+}
+
+#slide-18 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-19 .bcg {
+    background-image: url('../img/golf1.jpg')
+}
+
+#slide-19 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-20 .bcg {
+    background-image: url('../img/club2.jpg')
+}
+
+#slide-20 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-21 .bcg {
+    background-image: url('../img/testimony.jpg')
+}
+
+#slide-21 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-22 .bcg {
+    background-image: url('../img/bacenta.jpg')
+}
+
+#slide-22 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-23 .bcg {
+    background-image: url('../img/crusade.jpg')
+}
+
+#slide-23 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-24 .bcg {
+    background-image: url('../img/choir.jpg')
+}
+
+#slide-24 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-25 .bcg {
+    background-image: url('../img/admin.jpg')
+}
+
+#slide-25 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-26 .bcg {
+    background-image: url('../img/golf1.jpg')
+}
+
+#slide-26 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-27 .bcg {
+    background-image: url('../img/golf1.jpg')
+}
+
+#slide-27 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+#slide-28 .bcg {
+    background-image: url('../img/golf1.jpg')
+}
+
+#slide-28 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+
+/* Slide 2 */
+#slide-2 .bcg {
+    background-image: url('../img/about_back.jpg')
+}
+
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {
+    background-image: url('../img/story.jpg')
+}
+
+#slide-3 .hsContent {
+    margin-left: -239px;
+}
+
+#slide-3 h2 {
+    color: #f2ead6;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Slide 4 */
+#slide-4 .bcg {
+    background-image: url('../img/acco.jpg')
+}
+
+#slide-5 .bcg {
+    background-image: url('../img/towers.jpg')
+}
+
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+[class*="contentSlide"] {
+    /*height: 100%;*/
+}
+
+[class*="contentSlide"].alumni {
+    /*height: 100%;*/
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.right {
+    text-align: right !important;
+}
+
+@media screen and (min-width: 560px) {
+    .menu-container {
+        display: none !important;
+    }
+
+    #menu {
+        display: block;
+    }
+
+}
+
+[class*="writingContainer"] > * {
+    margin-bottom: 5% !important;
+}
+
+@media screen and (min-width: 1364px) and (max-width: 1367px) {
+    .writingContainer {
+        max-width: 88%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 769px) {
+    .writingContainer {
+        max-width: 81%;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+    #menu {
+        height: 10%;
+    }
+
+    .writingContent__inside.rotation {
+        margin-bottom: 10%;
+        width: 100% !important;
+    }
+
+    .writingContent {
+        max-width: 100%;
+        height: 100%;
+        position: unset;
+        margin-left: 1%;
+        /*margin-right: 30%;*/
+    }
+
+    .writingContent.more-margin {
+        margin-left: 10%;
+        /* margin-right: 10%; */
+    }
+
+    .writingContainer h2 {
+        /*margin-left: -11.2%;*/
+        /*margin-right: 25%;*/
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #menu {
+        display: none;
+    }
+
+    .writingContent__inside__image {
+        width: 100% !important;
+        float: none !important;
+        margin: 10px !important;
+    }
+
+    [class*="contentSlide"] {
+        /*height: 100%;*/
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .writingContent {
+        max-width: 100%;
+        height: 100%;
+        position: unset;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .writingContent h2 {
+        color: #fff8de;
+        background-color: #a51c30;
+        padding: 10px 5px;
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 12px;
+        text-align: center;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+
+    }
+
+    .writingContent p {
+        color: #b2b2b2;
+        text-align: justify;
+    }
+}
+
+.anagkazo-heading {
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    left: 37%;
+    margin: auto;
+    padding: 0;
+    position: fixed;
+    right: 30%;
+    -webkit-transition: top .2s;
+    transition: top .2s;
+    z-index: 15;
+    height: 100%;
+}
+
+.anagkazo-heading__link {
+    background-position: center center;
+    background-size: 50%;
+    height: 100%;
+    margin-top: 0px;
+    background-image: url(/img/Logo5WEB.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color: transparent;
+    display: block;
+    /* height: 100%; */
+    overflow: hidden;
+    position: fixed;
+    /* width: 100%; */
+}
+
+.anagkazo-heading__link:before {
+    background: #a51c30;
+    content: '';
+    height: 4px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    -webkit-transition: width .2s;
+    transition: width .2s;
+    width: 0%;
+}
+
+.apply-now--btn {
+    background-color: #a51c30;
+    border: 0.5px solid #ff0027;
+    /* border-radius: 10px; */
+    color: #ffffff !important;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    box-shadow: 0 0 30px 0 #6e0f1d, 0 0 30px 0 #790c1c, 0 0 10px 0 #ff0021 inset;
+}
