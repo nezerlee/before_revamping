@@ -1,46 +1,33 @@
     <section class="menu-container">
+        <div class="topnav" id="myTopnav">
+            <img class="topnav-img" src="img/logo.png" onclick="window.location.href='/about.php'" height="5vh" alt="ABMTC">
+            <a href="/about.php/">About Anagkazo</a>
+            <div class="dropdown">
+                <button class="dropbtn">Admissions
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/apply/course_info/">Course Information</a>
+                    <a href="/apply/requirement.php">Requirements</a>
+                    <a href="/apply/">Apply Now</a>
+                </div>
+            </div>
+            <a href="/rotations.php/">Rotations</a>
+            <a href="/pastoral.php/">Pastoral Training</a>
+            <a href="/student-life.php">Student Life</a>
+            <a href="/staff.php/">Staff</a>
+            <a href="/alumni.php">Alumni</a>
+            <a href="/contact.php">Contact Us</a>
 
-        <input type="checkbox" id="openmenu" class="hamburger-checkbox">
-
-        <div class="hamburger-icon">
-            <label for="openmenu" id="hamburger-label">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-
-        <div class="menu-pane">
-
-            <nav>
-                <ul class="menu-links">
-                    <li class="senior-nav">
-                        <a href="/about.php/">About Anagkazo</a>
-                    </li>
-                    <li class="senior-nav">
-                        <a href="https://admissions.anagkazobibleministrytrainingcentre.org">Admissions</a>
-                    </li>
-                    <li class="senior-nav">
-                        <a href="/rotations.php/">Rotations</a>
-                    </li>
-                    <li class="senior-nav">
-                        <a href="/pastoral.php/">Pastoral Training</a>
-                    </li>
-                    <li class="senior-nav">
-                        <a href="/staff.php/">Staff</a>
-                    </li>
-                    <li><a href="/student-life.php">Student Life</a></li>
-                    <li><a href="/alumni.php">Alumni</a></li>
-                    <li><a href="/contact.php">Contact Us</a></li>
-                    <li><a href="/online.php">Executive Online Short Courses</a></li>
-                    <li id="google_translate_element"></li>
-                </ul>
-
-
-            </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </section>
+<!--    end mobile view-->
+
+
+
+
+<!--    //desktop size-->
     <button class="apply-now--btn" onclick="window.location.href='https://anagkazobibleministrytrainingcentre.org/apply/'">Apply Now!</button>
     <ul id="menu">
 
@@ -66,13 +53,13 @@
 
         <li><a href="/apply" class="drop">Admissions</a><!-- Begin Home Item -->
 
-            <div class="dropdown_1column align_left">
+            <div class="dropdown_1column column-custom align_left">
 
-                <div class="col_1">
+                <div class="col_5">
 
-                    <ul class="simple">
+                    <ul class="simple-custom">
                         <li><a href="/apply/course_info/">Course Information</a></li>
-                        <li><a href="/apply/requirement.php">Requirement</a></li>
+                        <li><a href="/apply/requirement.php">Requirements</a></li>
                         <li><a href="/apply/">Apply Now</a></li>
                     </ul>
 
@@ -117,13 +104,13 @@
 
         </li><!-- End Pastoral Item -->
 
-        <li id="google_translate_element"></li>
 
         <li class="menu_right"><a href="contact.php" class="">Contact us</a></li>
+
+
         <li class="menu_right"><a href="alumni.php" class="">Alumni</a></li>
         <li class="menu_right"><a href="staff.php" class="">Staff</a></li>
         <li class="menu_right"><a href="/student-life.php" class="drop">Student Life</a>
-
             <div class="dropdown_1column align_right">
 
                 <div class="col_1">
@@ -142,6 +129,11 @@
             </div>
 
         </li>
+
+
+        <li class="panel" id="google_translate_element"></li>
+
+
 
 
     </ul>

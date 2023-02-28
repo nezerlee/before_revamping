@@ -74,14 +74,13 @@
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Residential Address
+                    </div>
                     <div class="form-floating">
                      <textarea name="residentialaddress" type="text" class="form-control"
-                               id="residentialaddress"
-                               placeholder="Residential Address">
+                               id="residentialaddress">
                      </textarea>
-                        <label for="residentialaddress"
-                               class="form-label-custom">Residential Address
-                        </label>
                     </div>
                 </div>
                 <div class="col-lg-6">

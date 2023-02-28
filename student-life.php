@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/mobile-nav.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/slick.css">
     <link rel="stylesheet" href="/css/slick-theme.css">
@@ -349,6 +350,17 @@
 <script src="/js/imagesloaded.js"></script>
 <script src="/js/skrollr.js"></script>
 <script src="/js/_main.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <script src="/js/slick/slick.js"></script>
 <script>
     $(document).ready(function () {

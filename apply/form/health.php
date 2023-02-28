@@ -58,7 +58,7 @@
 
                         </select>
                         <label for="majorsurgery"
-                               class="form-label-custom">Do you have any serious medical condition?</label>
+                               class="form-label-custom">Do you have any major surgeries?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">

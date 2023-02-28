@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/mobile-nav.css">
     <link rel="stylesheet" href="/css/alumni.css">
     <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
@@ -165,6 +166,17 @@
 <script src="/js/imagesloaded.js"></script>
 <script src="/js/skrollr.js"></script>
 <script src="/js/_main.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 </html>

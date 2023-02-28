@@ -20,9 +20,9 @@
                 <div class="row pb-4">
                     <div class="col-lg-12">
                         <div id="UDHelp" class="form-text-born-again">
-                            I,
+                            I, (Full Name)
                         </div>
-                        <div class="form-check" id="">
+                        <div class="form-check check-custom" id="">
                             <input type="text" name="declarationname" class="form-control form-control-why"
                                    id="declarationname"/>
                         </div>

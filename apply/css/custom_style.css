@@ -8,14 +8,16 @@
 }
 
 .masthead-custom {
-    height: 15vh;
+    height: 9vh;
     /*min-height: 500px;*/
     /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
     /*background-size: cover;*/
     /*background-position: center;*/
     /*background-repeat: no-repeat;*/
 }
-
+.multisteps-form {
+    height: 90vh;
+}
 @media only screen and (max-device-width: 540px) {
     .masthead {
         height: 50vh;
@@ -134,7 +136,7 @@
 }
 
 .multisteps-form__progress-btn.js-active {
-    color: #ffa500;
+    color: #a92b2c;
 }
 
 .multisteps-form__progress-btn.js-active:before {
@@ -220,6 +222,10 @@
     transition-delay: 0s;
     -webkit-transform: scale(1);
     transform: scale(1);
+    /*height: 100% !important;*/
+}
+.check-custom {
+    padding-left: 4.5em;
 }
 
 .scrollpage1 {
@@ -289,6 +295,7 @@ label.is-invalid {
 
 .scrollpage1 {
     overflow-y: scroll;
+    height: 50vh !important;
 }
 
 .card.for-btn {
@@ -328,8 +335,8 @@ label.is-invalid {
 }
 
 .card.for-btn .btn-primary {
-    background-color: orange;
-    border-color: orange;
+    background-color: #a82a2c;
+    border-color: #a92b2c;
 }
 
 .js-btn-prev {

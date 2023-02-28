@@ -9,10 +9,11 @@
                 <div class="row pb-4">
                     <div class="col-lg-6">
                         <div id="UDHelp" class="form-text-born-again">
-                            Upload Highest education certificate
+                            Upload Highest education certificate (PDF Only)
                         </div>
                         <div class="custom-file mb-3">
-                            <input type="file" class="custom-file-input" id="customFile" name="school_certificate">
+                            <input type="file" accept="application/pdf" class="custom-file-input" id="customFile"
+                                   name="school_certificate">
                             <label class="custom-file-label" for="customFile">Choose file</label>
                         </div>
                     </div>
@@ -20,10 +21,11 @@
                 <div class="row pb-4">
                     <div class="col-lg-6">
                         <div id="UDHelp" class="form-text-born-again">
-                            Upload Recommendation letter
+                            Upload Recommendation letter (PDF Only)
                         </div>
                         <div class="custom-file mb-3">
-                            <input type="file" class="custom-file-input" id="customFile" name="recommendation">
+                            <input type="file" accept="application/pdf" class="custom-file-input" id="customFile"
+                                   name="recommendation">
                             <label class="custom-file-label" for="customFile">Choose file</label>
                         </div>
                     </div>

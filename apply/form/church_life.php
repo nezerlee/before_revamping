@@ -11,7 +11,7 @@
                     <div class="form-check" id="">
                         <textarea name="beforebornagain" class="form-control form-control-why"
                                   id="beforebornagain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <div class="form-check" id="">
                         <textarea name="howyoujoined" class="form-control form-control-why"
                                   id="howyoujoined"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                     <div class="form-check" id="">
                         <textarea name="differentroles" class="form-control form-control-why"
                                   id="differentroles"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="form-check" id="">
                         <textarea name="whybibleschool" class="form-control form-control-why"
                                   id="whybibleschool"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="form-check" id="">
                         <textarea name="callingfromGodexplain" class="form-control form-control-why"
                                   id="callingfromGodexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                     </div>
                 </div>

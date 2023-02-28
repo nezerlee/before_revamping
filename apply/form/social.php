@@ -36,7 +36,7 @@
                         <div class="form-check" id="">
                         <textarea name="usenacorticexplain" class="form-control form-control-why"
                                   id="usenacorticexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         <div class="form-check" id="">
                         <textarea name="pastdrugsexplain" class="form-control form-control-why"
                                   id="pastdrugsexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                         <div class="form-check" id="">
                         <textarea name="arrestedbeforeexplain" class="form-control form-control-why"
                                   id="arrestedbeforeexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                         <div class="form-check" id="">
                         <textarea name="prosecutedbeforeexplain" class="form-control form-control-why"
                                   id="prosecutedbeforeexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                         <div class="form-check" id="">
                         <textarea name="jailbeforeexplain" class="form-control form-control-why"
                                   id="jailbeforeexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                         <div class="form-check" id="">
                         <textarea name="drinksbeforeexplain" class="form-control form-control-why"
                                   id="drinksbeforeexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                         <div class="form-check" id="">
                         <textarea name="armedrobberyexplain" class="form-control form-control-why"
                                   id="armedrobberyexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                         <div class="form-check" id="">
                         <textarea name="revolutionexplain" class="form-control form-control-why"
                                   id="revolutionexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                         <div class="form-check" id="">
                         <textarea name="prostitutionexplain" class="form-control form-control-why"
                                   id="prostitutionexplain"
-                                  rows="4">
+                                  rows="2" maxlength="120">
                         </textarea>
                         </div>
                     </div>

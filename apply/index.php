@@ -27,7 +27,7 @@
     <div class="container overflow-hidden">
         <!--multisteps-form-->
         <div class="multisteps-form">
-            <br><br>
+            <br>
             <!--progress bar-->
             <div class="row">
                 <div class="col-12 col-lg-12 ml-auto mr-auto mb-4">

@@ -97,6 +97,13 @@
     background:url("img/drop.png") no-repeat right 7px;
 }
 
+.column-custom {
+    width: 100% !important;
+ }
+.simple-custom {
+
+}
+
 /* Drop Down */
 
 .dropdown_1column,
@@ -157,6 +164,10 @@
 .col_3 {width:410px;}
 .col_4 {width:550px;}
 .col_5 {width:690px;}
+
+.simple-long {
+
+}
 
 /* Right alignment */
 
