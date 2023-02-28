@@ -84,27 +84,28 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Postal Address
+                    </div>
                     <div class="form-floating">
                      <textarea name="postaladdress" type="text" class="form-control"
                                id="postaladdress"
                                placeholder="Postal Address">
                      </textarea>
-                        <label for="postaladdress"
-                               class="form-label-custom">Postal Address
-                        </label>
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <!--                    country of origin-->
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Country of origin
+                    </div>
                     <div class="form-floating">
                         <select name="countryoforigin" class="form-select"
                                 id="nationalityatbirth">
                             <option selected disabled>Select one</option>
                         </select>
-                        <label for="nationalityatbirth"
-                               class="form-label-custom">Country of Origin</label>
                     </div>
                 </div>
                 <!--                contact number-->

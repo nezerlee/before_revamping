@@ -53,6 +53,9 @@
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Do you have a calling from God?
+                    </div>
                     <div class="form-floating">
                         <select name="callingfromGod" class="form-select"
                                 id="callingfromGod">
@@ -61,8 +64,6 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="callingfromGod"
-                               class="form-label-custom">Do you have a calling from God?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">

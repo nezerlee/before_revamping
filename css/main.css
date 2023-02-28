@@ -20,6 +20,8 @@ body {
 }
 
 #skrollr-body {
+    top: -3.5%;
+    margin-top: -1%;
     float: right;
     width: 100%;
     height: 100%;

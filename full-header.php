@@ -70,7 +70,7 @@
         </li><!-- End Admissions Item -->
         <li><a href="rotations.php" class="drop">Rotations</a><!-- Begin Rotations Item -->
 
-            <div class="dropdown_1column align_right">
+            <div class="dropdown_1column align_left">
 
                 <div class="col_1">
 
@@ -86,7 +86,7 @@
         </li><!-- End Rotations Item -->
         <li><a href="pastoral.php" class="drop">Pastoral Training</a><!-- Begin Pastoral Item -->
 
-            <div class="dropdown_1column align_right">
+            <div class="dropdown_1column align_left">
 
                 <div class="col_1">
 
@@ -131,7 +131,7 @@
         </li>
 
 
-        <li class="panel" id="google_translate_element"></li>
+<!--        <li class="panel" id="google_translate_element"></li>-->
 
 
 

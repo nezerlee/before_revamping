@@ -5,6 +5,9 @@
         <div id="demo-form" data-parsley-validate="" class="scrollpage1" style="height: 300px;">
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Have you had any problem with the law?
+                    </div>
                     <div class="form-floating">
                         <select name="problemswithlaw" class="form-select"
                                 id="problemswithlaw">
@@ -13,15 +16,15 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="problemswithlaw"
-                               class="form-label-custom">Have you had any problem with the law?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If yes, specify?
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="problemswithlawspecify" type="text" class="form-control" id="problemswithlawspecify"
                                placeholder="If yes, specify?">
-                        <label for="problemswithlawspecify">If yes, specify</label>
                     </div>
                 </div>
             </div>

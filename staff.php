@@ -5,18 +5,18 @@
     <title>Staff | Anagkazo Bible and Ministry Training Centre</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
 
 
     <link rel="stylesheet" href="/css/navigation.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/nav.css">
-<link rel="stylesheet" href="/css/mobile-nav.css">
+    <link rel="stylesheet" href="/css/mobile-nav.css">
     <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 <body class="loading">
-<?php require 'full-header.php';?>
+<?php require 'full-header.php'; ?>
 <section class="menu-container">
 
     <input type="checkbox" id="openmenu" class="hamburger-checkbox">
@@ -34,10 +34,10 @@
 
         <nav>
             <ul class="menu-links">
-                <li class="senior-nav" >
+                <li class="senior-nav">
                     <a href="###">About Anagkazo</a>
                 </li>
-                <li class="senior-nav" >
+                <li class="senior-nav">
                     <a href="###">Admissions</a>
                 </li>
                 <li class="senior-nav">
@@ -94,7 +94,7 @@
                             <p>
                                 <b class="staff-title">The Vice Chancellor
                                     <br> </b>
-                                <i>Bishop Emmanuel Interful</i> <br>
+                                <i>Bishop Emmanuel Nterful</i> <br>
                                 The Vice Chancellor of the Anagkazo Bible and Ministry Training Centre
                                 (ABMTC) advises and assists the Chancellor and provides leadership to the
                                 academic and non-academic units of the school.
@@ -124,14 +124,13 @@
                     </div>
                     <hr class="my-4">
                     <div class="writingContent__inside">
-                        <img class="writingContent__inside__image" src="/img/b-pazzy.jpg"/>
+                        <img class="writingContent__inside__image" src="/img/b-aso.jpg"/>
                         <div class="writingContent__inside__text">
-                            
+
                             <p>
-                                <b class="staff-title">The Dean Of
-                                    Academics
+                                <b class="staff-title">The Academic Dean
                                     <br> </b>
-                                <i>Bishop Kwame Owusu Asiedu</i> <br>
+                                <i>Bishop David Asomani</i> <br>
                                 The Dean of ABMTC performs the following functions:
                             <ol style="list-style: inside;">
                                 <li>Assists the Chancellor and Vice Chancellor in achieving the vision for
@@ -163,9 +162,9 @@
                     <div class="writingContent__inside">
                         <img class="writingContent__inside__image" src="/img/b-emma2.png"/>
                         <div class="writingContent__inside__text">
-                            
+
                             <p>
-                                <b class="staff-title">The Pastoral Dean
+                                <b class="staff-title">The Ministry Dean
                                     <br> </b>
                                 <i>Bishop Emmanuel Amartey</i> <br>
                                 The Office of The Chief Pastoral Dean of Anagkazo Bible and Ministry
@@ -185,7 +184,7 @@
                                 model.</p>
                             <p>
 
-                                The SSMG comprises of 32 campaigns that work simultaneously, to practically
+                                The SSMG comprises 32 campaigns that work simultaneously, to practically
                                 equip students with church administration, church growth and Sunday
                                 management skills.</p>
                             <p>
@@ -202,9 +201,48 @@
                     </div>
                     <hr class="my-4">
                     <div class="writingContent__inside">
+                        <img class="writingContent__inside__image" src="/img/b-pazzy.jpg"/>
+                        <div class="writingContent__inside__text">
+
+                            <p>
+                                <b class="staff-title">The Dean of Student Affairs
+                                    <br> </b>
+                                <i>Bishop Kwame Owusu Asiedu</i> <br>
+                                The Dean of student affairs is responsible for: </p>
+                            <p>
+
+                                The counselling and placement of students;</p>
+                            <p>
+
+                                The provision of chaplaincy services through the Chaplaincy
+                                Board to students and other members of the University</p>
+                            <p>
+
+                                The resolution of conflict between students and halls and hostels of residence as well
+                                as conflicts involving students outside of halls and hostels</p>
+                            <p>
+
+                                Making representation to the University about ways of enhancing the quality of student's
+                                life</p>
+                            <p>
+
+                                Ensuring that maintenance of cordial relations among the various student groups and the
+                                student body as a whole, to ensure that they obtain maximum benefit from their
+                                University experience
+                            </p>
+                            <p>
+                                Ensuring that cordial relations among the various student groups and the
+                                student body as a whole is maintained, so that they can obtain maximum benefit from
+                                their University experience
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+
+                    <div class="writingContent__inside">
                         <img class="writingContent__inside__image" src="/img/lp-ruthie.png"/>
                         <div class="writingContent__inside__text">
-                            
+
                             <p>
                                 <b class="staff-title">The Chief
                                     Administrator
@@ -254,21 +292,21 @@
                     <div class="writingContent__inside">
                         <img class="writingContent__inside__image" src="/img/staffs.jpg"/>
                         <div class="writingContent__inside__text">
-                            
-                                <p>
-                                    <b class="staff-title">The Coordinators
-                                        <br> </b>
-                                    These are pastors specially selected and assigned to specific classes for
-                                    their teaching, training and guidance in academic and pastoral work. They
-                                    are responsible for their specific classes from admission all the way to
-                                    graduation.
-                                </p>
-                                <p>
-                                    <b class="staff-title">Facility Managers
-                                        <br> </b>
-                                    These are pastors responsible for the maintenance and improvement of the
-                                    whole campus.
-                                </p>
+
+                            <p>
+                                <b class="staff-title">The Coordinators
+                                    <br> </b>
+                                These are pastors specially selected and assigned to specific classes for
+                                their teaching, training and guidance in academic and pastoral work. They
+                                are responsible for their specific classes from admission all the way to
+                                graduation.
+                            </p>
+                            <p>
+                                <b class="staff-title">Facility Managers
+                                    <br> </b>
+                                These are pastors responsible for the maintenance and improvement of the
+                                whole campus.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -285,14 +323,14 @@
 <script src="/js/_main.js"></script>
 
 <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
 </script>
 
 </body>

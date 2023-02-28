@@ -5,6 +5,9 @@
         <div id="demo-form" data-parsley-validate="" class="scrollpage1" style="height: 300px;">
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Are you born again?
+                    </div>
                     <div class="form-floating">
                         <select name="bornagain" class="form-select"
                                 id="bornagain">
@@ -13,11 +16,12 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="bornagain"
-                               class="form-label-custom">Are you born again?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Do you believe you are called?
+                    </div>
                     <div class="form-floating">
                         <select name="called" class="form-select"
                                 id="called">
@@ -26,34 +30,39 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="called"
-                               class="form-label-custom">Do you beleive you are called?</label>
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        What church do you fellowship with?
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="fellowship_with" type="text" class="form-control" id="fellowship_with"
                                placeholder="What church do you fellowship with?">
-                        <label for="fellowship_with">What church do you fellowship with?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Which Role Do You Play In Your Church?
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="roleinchurch" type="text" class="form-control" id="roleinchurch"
                                placeholder="Which Role Do You Play In Your Church?">
-                        <label for="roleinchurch">Which Role Do You Play In Your Church?</label>
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If You Are A Pastor, Please Indicate How Long You Have Been
+                        Pastoring?
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="pastorforhowlong" type="text" class="form-control" id="pastorforhowlong"
                                placeholder="What church do you fellowship with?">
-                        <label for="pastorforhowlong">If You Are A Pastor, Please Indicate How Long You Have Been
-                            Pastoring?</label>
+
                     </div>
                 </div>
 

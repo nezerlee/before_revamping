@@ -5,6 +5,9 @@
         <div id="demo-form" data-parsley-validate="" class="scrollpage1" style="height: 300px;">
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Recommended By?
+                    </div>
                     <div class="form-floating">
                         <select name="recommendedby" class="form-select"
                                 id="recommendedby">
@@ -15,15 +18,15 @@
                             <option value="Bishop">Bishop</option>
 
                         </select>
-                        <label for="recommendedby"
-                               class="form-label-custom">Recommended By?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Others, specify
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="otherspecify" type="text" class="form-control" id="otherspecify"
-                               placeholder="If yes, specify?">
-                        <label for="otherspecify">Others, specify</label>
+                               placeholder="others, specify?">
                     </div>
                 </div>
             </div>

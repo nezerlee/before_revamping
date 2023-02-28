@@ -5,6 +5,9 @@
         <div id="demo-form" data-parsley-validate="" class="scrollpage1" style="height: 300px;">
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Do you have any serious medical condition?
+                    </div>
                     <div class="form-floating">
                         <select name="seriousmedicalcondition" class="form-select"
                                 id="seriousmedicalcondition">
@@ -13,20 +16,23 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="seriousmedicalcondition"
-                               class="form-label-custom">Do you have any serious medical condition?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If yes, specify
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="specifymedicalcondition" type="text" class="form-control" id="specifymedicalcondition"
-                               placeholder="What church do you fellowship with?">
-                        <label for="specifymedicalcondition">If yes, specify</label>
+                               placeholder="If yes, specify">
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Are You On Any Regular Medication?
+                    </div>
                     <div class="form-floating">
                         <select name="regularmedication" class="form-select"
                                 id="regularmedication">
@@ -35,20 +41,23 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="regularmedication"
-                               class="form-label-custom">Are You On Any Regular Medication?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If yes, specify
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="regularmedicationspecify" type="text" class="form-control" id="regularmedicationspecify"
                                placeholder="If yes, specify">
-                        <label for="regularmedicationspecify">If yes, specify</label>
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Do you have any major surgeries?
+                    </div>
                     <div class="form-floating">
                         <select name="majorsurgery" class="form-select"
                                 id="majorsurgery">
@@ -57,20 +66,23 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="majorsurgery"
-                               class="form-label-custom">Do you have any major surgeries?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If yes, specify
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="majorsurgeryspecify" type="text" class="form-control" id="majorsurgeryspecify"
                                placeholder="If yes, specify">
-                        <label for="majorsurgeryspecify">If yes, specify</label>
                     </div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        Do you have any Allergies?
+                    </div>
                     <div class="form-floating">
                         <select name="allergy" class="form-select"
                                 id="allergy">
@@ -79,15 +91,15 @@
                             <option value="No">No</option>
 
                         </select>
-                        <label for="allergy"
-                               class="form-label-custom">Do you have any Allergies?</label>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <div id="UDHelp" class="form-text-born-again">
+                        If yes, specify
+                    </div>
                     <div class="form-floating mb-3">
                         <input name="allergyspecify" type="text" class="form-control" id="allergyspecify"
                                placeholder="If yes, Specify?">
-                        <label for="allergyspecify">If yes, specify</label>
                     </div>
                 </div>
             </div>
