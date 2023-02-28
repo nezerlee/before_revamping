@@ -44,17 +44,15 @@
     <button class="apply-now--btn" onclick="window.location.href='https://anagkazobibleministrytrainingcentre.org/apply/'">Apply Now!</button>
     <ul id="menu">
 
-        <li><a href="https://admissions.anagkazobibleministrytrainingcentre.org" class="">Admissions</a>
-            <!-- Begin Admission Item -->
 
-        </li><!-- End Admission Item -->
         <li><a href="/about.php" class="drop">About</a><!-- Begin Home Item -->
 
-            <div class="dropdown_1column align_right">
+            <div class="dropdown_1column align_left">
 
                 <div class="col_1">
 
                     <ul class="simple">
+                        <li><a href="/about.php#founder">Founder</a></li>
                         <li><a href="/about.php#history">History</a></li>
                         <li><a href="/about.php#story">The Anagkazo Story</a></li>
                         <li><a href="/about.php#campus">The Anagkazo Campus</a></li>
@@ -65,6 +63,24 @@
             </div>
 
         </li><!-- End About Item -->
+
+        <li><a href="/apply" class="drop">Admissions</a><!-- Begin Home Item -->
+
+            <div class="dropdown_1column align_left">
+
+                <div class="col_1">
+
+                    <ul class="simple">
+                        <li><a href="/apply/course_info/">Course Information</a></li>
+                        <li><a href="/apply/requirement.php">Requirement</a></li>
+                        <li><a href="/apply/">Apply Now</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </li><!-- End Admissions Item -->
         <li><a href="rotations.php" class="drop">Rotations</a><!-- Begin Rotations Item -->
 
             <div class="dropdown_1column align_right">
@@ -102,6 +118,10 @@
         </li><!-- End Pastoral Item -->
 
         <li id="google_translate_element"></li>
+
+        <li class="menu_right"><a href="contact.php" class="">Contact us</a></li>
+        <li class="menu_right"><a href="alumni.php" class="">Alumni</a></li>
+        <li class="menu_right"><a href="staff.php" class="">Staff</a></li>
         <li class="menu_right"><a href="/student-life.php" class="drop">Student Life</a>
 
             <div class="dropdown_1column align_right">
@@ -122,10 +142,6 @@
             </div>
 
         </li>
-        <li class="menu_right"><a href="staff.php" class="">Staff</a></li>
-        <li class="menu_right"><a href="alumni.php" class="">Alumni</a></li>
-        <li class="menu_right"><a href="contact.php" class="">Contact us</a></li>
-        <li class="menu_right"><a href="online.php" class="">Executive Online Short Courses</a></li>
 
 
     </ul>

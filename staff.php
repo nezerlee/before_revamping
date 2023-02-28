@@ -88,11 +88,12 @@
                 <div class="writingContent less-margin__without_img">
                     <h2>Staff</h2>
                     <div class="writingContent__inside">
-                        <img class="writingContent__inside__image" src="/img/b-hemish.jpg"/>
+                        <img class="writingContent__inside__image" src="/img/bishop-interful.jpg"/>
                         <div class="writingContent__inside__text">
                             <p>
                                 <b class="staff-title">The Vice Chancellor
                                     <br> </b>
+                                <i>Bishop Emmanuel Interful</i> <br>
                                 The Vice Chancellor of the Anagkazo Bible and Ministry Training Centre
                                 (ABMTC) advises and assists the Chancellor and provides leadership to the
                                 academic and non-academic units of the school.
@@ -129,6 +130,7 @@
                                 <b class="staff-title">The Dean Of
                                     Academics
                                     <br> </b>
+                                <i>Bishop Kwame Owusu Asiedu</i> <br>
                                 The Dean of ABMTC performs the following functions:
                             <ol style="list-style: inside;">
                                 <li>Assists the Chancellor and Vice Chancellor in achieving the vision for
@@ -164,6 +166,7 @@
                             <p>
                                 <b class="staff-title">The Pastoral Dean
                                     <br> </b>
+                                <i>Bishop Emmanuel Amartey</i> <br>
                                 The Office of The Chief Pastoral Dean of Anagkazo Bible and Ministry
                                 Training Centre is the division that coordinates the practical aspect of
                                 ministry training for students. </p>
@@ -205,6 +208,7 @@
                                 <b class="staff-title">The Chief
                                     Administrator
                                     <br> </b>
+                                <i>LP Ruth Appiah-Denkyira</i> <br>
                                 The work of the chief administrator can be summed up to include the
                                 following:
 

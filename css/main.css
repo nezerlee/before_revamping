@@ -6,21 +6,21 @@ input,
 select,
 textarea {
     color: #414141 !important;
-    overflow: visible !important;
+    overflow: hidden !important;
 }
 
 body {
     height: 100%;
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    margin: auto;
     font-size: 1em;
     line-height: 1.75em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /*overflow: visible !important;*/
 }
 
 #skrollr-body {
-    float: left;
+    float: right;
     width: 100%;
     height: 100%;
     /*touch-action: manipulation !important;*/
@@ -196,11 +196,13 @@ main {
 }
 
 .scripture {
-    font-family: fantasy;
+    font-family: "Montserrat", serif;
     text-align: center;
+    font-weight: bold;
 }
 
 .writingContainer {
+    margin-top: -2%;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -227,6 +229,7 @@ main {
 .writingContent.alumni {
     margin-left: 2%;
     margin-right: 10%;
+    font-size-adjust: 0.5 !important;
 }
 
 .writingContent__first_image {
@@ -264,7 +267,7 @@ main {
     color: #f6f5f1;
     background-color: #a51c30;
     padding: 10px 5px;
-    font-size: 35px;
+    font-size: 28px !important;
     line-height: 38px;
     margin-bottom: 12px;
     text-align: center;
@@ -290,7 +293,7 @@ main {
     padding-bottom: 2px;
     display: inline-block;
     position: relative;
-    font-size: 200%;
+    font-size: 120%;
 }
 
 .h-custom-headline.accent span:before, .h-custom-headline.accent span:after {
@@ -723,6 +726,10 @@ main {
     padding-right: 0;
 }
 
+.homeSlide {
+    height: 90% !important;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1071,6 +1078,7 @@ main {
 }
 
 .apply-now--btn {
+    position: sticky;
     background-color: #a51c30;
     border: 0.5px solid #ff0027;
     /* border-radius: 10px; */
@@ -1078,5 +1086,6 @@ main {
     font-weight: bold;
     padding: 8px;
     width: 100%;
-    box-shadow: 0 0 30px 0 #6e0f1d, 0 0 30px 0 #790c1c, 0 0 10px 0 #ff0021 inset;
+    margin-bottom: -0%;
+    /*box-shadow: 0 0 30px 0 #6e0f1d, 0 0 30px 0 #790c1c, 0 0 10px 0 #ff0021 inset;*/
 }

@@ -1,0 +1,19 @@
+/* Pricing rows */
+table.avia_pricing_minimal tr {
+    /* color: #ffffff; */
+    border: none;
+}
+table.avia_pricing_minimal tr:nth-child(odd) {
+    background-color: #961010;
+  }
+  @media only screen and (max-width: 767px){
+      .show-heading {
+    display: block !important;
+}
+}
+.txt-white {
+    color: white !important;
+}
+.txt-yellow {
+    color: gold !important;
+}

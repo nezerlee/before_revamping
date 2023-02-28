@@ -46,7 +46,7 @@
 
             <div class="writingContainer">
                 <div class="writingContent alumni">
-                    <h2 class="h-custom-headline man h1 accent"><span>Academic Programs</span></h2>
+                    <h2 class="h-custom-headline man h1 accent"><span>ABMTC Alumni</span></h2>
                     <div class="alumni-post">
                         <div class="grid-container center">
                             <div class="grid-item1">

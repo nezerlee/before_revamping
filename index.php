@@ -51,8 +51,8 @@
     </a>
 </div>
 <video playsinline autoplay muted loop poster="/img/final.jpg" id="videoBG">
-    <source src="/img/FINAL2.webm" type="video/webm">
     <source src="/img/FINAL2.mp4" type="video/mp4">
+    <source src="/img/FINAL2.webm" type="video/webm">
 </video>
 </body>
 

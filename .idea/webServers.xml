@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="8ab7485b-80f5-453a-b617-327d9a36116f" name="Main Website" url="https://anagkazobibleministrytrainingcentre.org/">
-        <fileTransfer rootFolder="/public_html/anagkazobibleministrytrainingcentre" host="ftp.jhz.qlw.mybluehost.me" port="21">
+      <webServer id="8ab7485b-80f5-453a-b617-327d9a36116f" name="Main Website" url="https://changes.anagkazobibleministrytrainingcentre.org/">
+        <fileTransfer rootFolder="/public_html/revamp" host="ftp.jhz.qlw.mybluehost.me" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="900000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

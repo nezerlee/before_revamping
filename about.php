@@ -18,62 +18,15 @@
 <?php require 'full-header.php';?>
 
 <div id="preload">
-    <img src="img/founder.jpg">
-    <img src="img/about_back.jpg">
-    <img src="img/store.jpg">
-    <img src="img/acco.jpg">
+    <img src="/img/about_back.jpg">
+    <img src="/img/store.jpg">
+    <img src="/img/acco.jpg">
+    <img src="/img/founder.jpg">
 </div>
 
 
 <main id="skrollr-body">
-    <section id="slide-1" class="homeSlide">
-        <div id="founder" class="bcg"
-             data-center="background-position: 50% 0px;"
-             data-top-bottom="background-position: 50% -100px;"
-             data-anchor-target="#slide-1"
-        >
-            <div class="hsContainer">
-                <div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0"
-                     data-anchor-target="#slide-1">
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="slide-1-content" class="contentSlide">
-        <div class="bcg">
-
-            <div class="writingContainer">
-                <div class="writingContent less-margin__without_img">
-                    <h2>The Founder</h2>
-                    <p>
-                        The Anagkazo Bible & Ministry Training Centre (ABMTC) was founded in 1996 by the Presiding
-                        Bishop of
-                        the United Denomination Originating from the Lighthouse Group of Churches (UD-OLGC); Bishop Dag
-                        Heward-Mills.
-                    </p>
-                    <p>
-                        Dag Heward-Mills is an African Evangelist, the founder and general overseer of the United
-                        Denominations Originating from the Lighthouse Group of Churches (UD-OLGC, formerly Lighthouse
-                        Chapel International).
-                        He is a qualified medical doctor. In 1991 Dag Heward-Mills gave himself wholly to the work of
-                        God and has never looked back.
-                        Evangelist Dag Heward-Mills has a multifarious ministry that has transformed and continues to
-                        impact millions of lives across the globe.</p>
-                    <p>The UD-OLGC denomination has a presence in 92 countries and on all habitable continents. He has
-                        over three decades experience in ministry. Dag Heward-Mills' passion for God's work has been
-                        characterized by building churches and training pastors. Also helping the needy and invalid,
-                        authoring, producing music, and speaking at conferences. Further more pastoring young people,
-                        and holding massive evangelistic campaigns in many nations.
-                        He has been welcomed by many presidents, chiefs, and leaders of nations, and has personally led
-                        several of them to Christ. Dag Heward-Mills is greatly admired for his candid and down-to-earth
-                        teaching and writing style.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section id="slide-2" class="homeSlide">
         <div id="history" class="bcg"
@@ -275,6 +228,54 @@
                         However, this campus was built to shamelessly teach and publish
                         these truths about God and the work of ministry in a systematic and biblical way.
 
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slide-1" class="homeSlide">
+        <div id="founder" class="bcg"
+             data-center="background-position: 50% 0px;"
+             data-top-bottom="background-position: 50% -100px;"
+             data-anchor-target="#slide-1" >
+            <div class="hsContainer">
+                <div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0"
+                     data-anchor-target="#slide-1">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slide-1-content" class="contentSlide">
+        <div class="bcg">
+
+            <div class="writingContainer">
+                <div class="writingContent less-margin__without_img">
+                    <h2>The Founder</h2>
+                    <p>
+                        The Anagkazo Bible & Ministry Training Centre (ABMTC) was founded in 1996 by the Presiding
+                        Bishop of
+                        the United Denomination Originating from the Lighthouse Group of Churches (UD-OLGC); Bishop Dag
+                        Heward-Mills.
+                    </p>
+                    <p>
+                        Dag Heward-Mills is an African Evangelist, the founder and general overseer of the United
+                        Denominations Originating from the Lighthouse Group of Churches (UD-OLGC, formerly Lighthouse
+                        Chapel International).
+                        He is a qualified medical doctor. In 1991 Dag Heward-Mills gave himself wholly to the work of
+                        God and has never looked back.
+                        Evangelist Dag Heward-Mills has a multifarious ministry that has transformed and continues to
+                        impact millions of lives across the globe.</p>
+                    <p>The UD-OLGC denomination has a presence in 92 countries and on all habitable continents. He has
+                        over three decades experience in ministry. Dag Heward-Mills' passion for God's work has been
+                        characterized by building churches and training pastors. Also helping the needy and invalid,
+                        authoring, producing music, and speaking at conferences. Further more pastoring young people,
+                        and holding massive evangelistic campaigns in many nations.
+                        He has been welcomed by many presidents, chiefs, and leaders of nations, and has personally led
+                        several of them to Christ. Dag Heward-Mills is greatly admired for his candid and down-to-earth
+                        teaching and writing style.
                     </p>
 
                 </div>
